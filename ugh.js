@@ -4,7 +4,7 @@ var UGHJS_MIN = 3000;
 var UGHJS_MAX = 12000;
 
 var ughjs_init = function() {
-	setTimeout("ughjs_run", UGHJS_MIN + Math.random() * (UGHJS_MAX - UGHJS_MIN));
+	setTimeout(ughjs_run, UGHJS_MIN + Math.random() * (UGHJS_MAX - UGHJS_MIN));
 }
 
 var ughjs_run = function() {
