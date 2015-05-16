@@ -42,7 +42,7 @@
     function ughjsRun () {
         var tags = getTags();
 
-        $(tags).each(getRandom(trollHash));
+        $(tags).each(getRandom(ugHash));
 
         ughjsInit();
     }
