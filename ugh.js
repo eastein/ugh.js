@@ -5,7 +5,7 @@
         tags = ["div", "article", "section", "nav", "header"].filter(function (tag) {
             return !!$(tag).length;
         }),
-        trollHash = {
+        ugHash = {
             "opacityTrolling": function () {
                 $(this).css("opacity", (Math.random() + 2.0) / 3.0);
             }
