@@ -1,0 +1,27 @@
+{
+  "name": "ugh.js",
+  "main": "ugh.js",
+  "version": "0.0.0",
+  "homepage": "https://github.com/eastein/ugh.js",
+  "authors": [
+    "Eric Stein",
+    "Jeff Auriemma"
+  ],
+  "description": "This library messes with people and confuses them and it is a bad thing",
+  "keywords": [
+    "ugh",
+    "bad",
+    "why"
+  ],
+  "dependencies": {
+    "jquery": ">=1.7.0"
+  },
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
