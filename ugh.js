@@ -1,15 +1,20 @@
-var opacity_trolling = function(obj) {$(this).css("opacity", (Math.random() + 2.0) / 3.0);}
+(function () {
+    'use strict';
+    var UGHJS_MIN = 3000,
+        UGHJS_MAX = 12000;
 
-var UGHJS_MIN = 3000;
-var UGHJS_MAX = 12000;
+    function opacityTrolling () {
+        $(this).css("opacity", (Math.random() + 2.0) / 3.0);
+    }
 
-var ughjs_init = function() {
-	setTimeout(ughjs_run, UGHJS_MIN + Math.random() * (UGHJS_MAX - UGHJS_MIN));
-}
+    function ughjsRun () {
+        $('div').each(opacityTrolling);
+        ughjsInit();
+    }
 
-var ughjs_run = function() {
-	$('div').each(opacity_trolling);
-	ughjs_init();
-}
+    function ughjsInit () {
+    	setTimeout(ughjsRun, UGHJS_MIN + Math.random() * (UGHJS_MAX - UGHJS_MIN));
+    }
 
-ughjs_init();
+    ughjsInit();
+})();
