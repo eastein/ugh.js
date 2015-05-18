@@ -10,7 +10,12 @@ If you want to help make this joke of a horrible thing even more funny and terri
 
 Nobody is using this in production one hopes, so we're not too worried about breaking it.
 
-<A name="toc1-12" title="Toolbox" />
+<A name="toc1-12" title="License" />
+# License
+
+This library is licensed under hte MIT license.
+
+<A name="toc1-17" title="Toolbox" />
 # Toolbox
 
 1) Do nasty things (works in chrome) - on scroll.

@@ -8,6 +8,10 @@ If you want to help make this joke of a horrible thing even more funny and terri
 
 Nobody is using this in production one hopes, so we're not too worried about breaking it.
 
+# License
+
+This library is licensed under hte MIT license.
+
 # Toolbox
 
 1) Do nasty things (works in chrome) - on scroll.
