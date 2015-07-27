@@ -13,7 +13,7 @@ Nobody is using this in production one hopes, so we're not too worried about bre
 <A name="toc1-12" title="License" />
 # License
 
-This library is licensed under hte MIT license.
+This library is licensed under the MIT license.
 
 <A name="toc1-17" title="Toolbox" />
 # Toolbox

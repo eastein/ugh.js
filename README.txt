@@ -10,7 +10,7 @@ Nobody is using this in production one hopes, so we're not too worried about bre
 
 # License
 
-This library is licensed under hte MIT license.
+This library is licensed under the MIT license.
 
 # Toolbox
 
